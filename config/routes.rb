@@ -4,11 +4,10 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :users, only: [:create, :index]
+      resources :users, only: [:create, :index, :show]
       resources :sessions, only: :create
       resources :movies, only: [:index, :show] 
-      resources :viewing_parties, only: [:create, :show, :update] do
-      end
+      resources :viewing_parties, only: [:create, :show, :update]
     end
   end
 end

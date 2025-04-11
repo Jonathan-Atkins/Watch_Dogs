@@ -18,7 +18,7 @@ describe "A Movie Detail", type: :request do
         attributes = movie[:attributes]
         expect(attributes[:title]).to eq("The Shawshank Redemption")
         expect(attributes[:release_year]).to eq("1994-09-23")
-        expect(attributes[:vote_average]).to eq(8.708)
+        expect(attributes[:vote_average]).to eq(8.707)
         expect(attributes[:runtime]).to eq(142)
         expect(attributes[:genres]).to eq(["Drama", "Crime"])
         expect(attributes[:summary]).to eq(
@@ -27,7 +27,7 @@ describe "A Movie Detail", type: :request do
 
         cast = attributes[:cast]
         expect(cast).to be_an(Array)
-        expect(cast.length).to eq(10)  # Assuming it returns 10 cast members
+        expect(cast.length).to eq(10)  
         expect(cast.first).to have_key(:character)
         expect(cast.first).to have_key(:actor)
       end

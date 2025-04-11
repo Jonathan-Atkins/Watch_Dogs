@@ -87,4 +87,21 @@ RSpec.describe "Users API", type: :request do
       expect(json[:data][0][:attributes]).to_not have_key(:api_key)
     end
   end
+
+  describe "Get One User" do
+    it "can retrieve one user with thier attributes" do
+      user1 = User.create!(name: "Tom", username: "myspace_creator", password: "test123")
+      User.create!(name: "Oprah", username: "oprah", password: "abcqwerty")
+      User.create!(name: "Beyonce", username: "sasha_fierce", password: "blueivy")
+
+      get "/api/v1/users/#{user1.id}"
+
+      # expect(response.status).to eq (200)
+      user = JSON.parse(response.body, symbolize_names: true)[:data]
+      expect(user).to be_a(Hash)
+      expect(user[:id]).to eq(user1.id.to_s)
+      expect(user[:attributes][:name]).to eq("Tom")
+      expect(user[:attributes][:username]).to eq("myspace_creator")
+    end
+  end
 end

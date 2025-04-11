@@ -25,34 +25,34 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 26 Mar 2025 22:18:06 GMT
+      - Thu, 10 Apr 2025 23:54:13 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=7594
+      - public, max-age=894
       X-Memc:
       - HIT
       X-Memc-Key:
       - 6463ec150bedf71e558b17c703e30526
       X-Memc-Age:
-      - '20654'
+      - '20731'
       X-Memc-Expires:
-      - '7594'
+      - '894'
       Etag:
-      - W/"02c26e635611fa63bffb9b9347126ee6"
+      - W/"ef17161f90ce9a6d2ae891d2d3e91013"
       Vary:
       - Accept-Encoding,accept-encoding
       - Origin
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 fa77cfd09e5d8f2f35546ed90ffa6a82.cloudfront.net (CloudFront)
+      - 1.1 c04033212df67fc77e27d2434c35fc9a.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-P4
+      - LAX54-P7
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 0uu-PrSCJUmw0e5nxeS7_c0hNHJvA0mBw88oXT3PKPGXs126sqlZsg==
+      - ZvSLvj9KpiqyAknY3dcOtXdT1XP7cCj5RnKpFveAjCDHp92FuKx8aQ==
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg","genre_ids":[18,80],"id":278,"original_language":"en","original_title":"The
@@ -61,10 +61,10 @@ http_interactions:
         at the Shawshank prison, where he puts his accounting skills to work for an
         amoral warden. During his long stretch in prison, Dufresne comes to be admired
         by the other inmates -- including an older prisoner named Red -- for his integrity
-        and unquenchable sense of hope.","popularity":24.8034,"poster_path":"/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg","release_date":"1994-09-23","title":"The
-        Shawshank Redemption","video":false,"vote_average":8.7,"vote_count":27964},{"adult":false,"backdrop_path":null,"genre_ids":[99],"id":897459,"original_language":"en","original_title":"Hope
+        and unquenchable sense of hope.","popularity":38.8609,"poster_path":"/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg","release_date":"1994-09-23","title":"The
+        Shawshank Redemption","video":false,"vote_average":8.707,"vote_count":28095},{"adult":false,"backdrop_path":null,"genre_ids":[99],"id":897459,"original_language":"en","original_title":"Hope
         Springs Eternal: A Look Back at The Shawshank Redemption","overview":"Documentary
-        about the movie.","popularity":0.1031,"poster_path":"/v4wcS8XwUn5zl57rYRMzMnKahmt.jpg","release_date":"2004-06-25","title":"Hope
+        about the movie.","popularity":0.1645,"poster_path":"/v4wcS8XwUn5zl57rYRMzMnKahmt.jpg","release_date":"2004-06-25","title":"Hope
         Springs Eternal: A Look Back at The Shawshank Redemption","video":false,"vote_average":7.2,"vote_count":6}],"total_pages":1,"total_results":2}'
-  recorded_at: Wed, 26 Mar 2025 22:18:06 GMT
+  recorded_at: Thu, 10 Apr 2025 23:54:13 GMT
 recorded_with: VCR 6.3.1
